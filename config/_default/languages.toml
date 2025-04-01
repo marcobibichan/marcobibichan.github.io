@@ -1,5 +1,5 @@
 # Rename this file to languages.toml to enable multilingual support
-defaultContentLanguage = "zh-tw"
+defaultContentLanguage = zh
 [languages]
   [languages.zh]
     contentDir = "content"
