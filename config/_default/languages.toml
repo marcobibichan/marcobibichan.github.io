@@ -1,12 +1,16 @@
 # Rename this file to languages.toml to enable multilingual support
-[en]
-languageName = "English"
-languagedirection = "ltr"
-title = "bibichan's Master blog"
-weight = 1
-
-[zh-tw]
-languageName = "Chinese-Traditional"
-languagedirection = "ltr"
-title = "bibichan 的大師部落格"
-weight = 1
+defaultContentLanguage = 'zh-tw'
+[languages]
+  [languages.zh-tw]
+    contentDir = "content"
+    languageName = "Chinese Traditonal"
+    weight = 1
+    title = "bibichan 的大師部落格"
+    languageDirection = "ltr"
+    languageCode = "zh-TW"
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+    languageDirection = "ltr"
+    languageCode = "en-US"
